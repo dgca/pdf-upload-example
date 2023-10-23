@@ -24,8 +24,6 @@ function useFileUpload(file: File) {
         body: formData,
       });
 
-      console.log(response);
-
       if (!response.ok) {
         setError("Upload failed, please try again.");
       }
