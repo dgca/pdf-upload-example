@@ -2,11 +2,7 @@ import { PDFUpload } from "@/components/PDFUpload/PDFUpload";
 
 export default function Home() {
   return (
-    <main
-      style={{
-        padding: "2rem",
-      }}
-    >
+    <main>
       <h1>PDF Upload Example</h1>
       <PDFUpload />
     </main>
